@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
 
 	// After the accpet() is successfully called, the server will get the IP address
     // and port number of the client. then print client IP address and port
-	std::cout << "Client Ip : " << inet_ntoa(client_address.sin_addr) << ", port : " << \
+	std::cout << "Client IP : " << inet_ntoa(client_address.sin_addr) << ", port : " << \
 	ntohs(client_address.sin_port) << std::endl;
 	
 	// Send message to client 
